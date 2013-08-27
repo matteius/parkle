@@ -18,11 +18,8 @@ setup(
     description=("Modified Parkle engine to meet the needs of Django-farkle"),
     license="BSD",
     keywords="Parkle and Farkle",
-    package_data  = { 
-        'ai': ['ai/*'],
-    },
     include_package_data=True,
-    packages=['parkle'],
+    packages=find_packages(),
     install_requires=install_requires,
     long_description=read('README.md'),
     zip_safe=False,
