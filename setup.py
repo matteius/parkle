@@ -20,7 +20,6 @@ setup(
     keywords="Parkle and Farkle",
     include_package_data=True,
     packages=['parkle'],
-    package_dir={'': 'parkle'},
     install_requires=install_requires,
     long_description=read('README.md'),
     zip_safe=False,
