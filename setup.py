@@ -19,7 +19,9 @@ setup(
     license="BSD",
     keywords="Parkle and Farkle",
     include_package_data=True,
-    packages=find_packages(),
+    packages=["parkle", "parkle.ai"],
+    requires=[
+    ],
     install_requires=install_requires,
     long_description=read('README.md'),
     zip_safe=False,
