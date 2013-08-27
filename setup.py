@@ -22,6 +22,6 @@ setup(
     packages=['parkle'],
     package_dir={'': 'parkle'},
     install_requires=install_requires,
-    long_description=read('README'),
+    long_description=read('README.md'),
     zip_safe=False,
 )
